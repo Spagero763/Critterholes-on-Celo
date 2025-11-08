@@ -4,14 +4,12 @@ interface RequestBody {
   userAddress: string;
   score: number;
 }
-
 interface Env {
   SIGNER_PRIVATE_KEY: string;
   WCT_TOKEN_ADDRESS: string;
   DEGEN_TOKEN_ADDRESS: string;
   BASE_RPC_URL: string; 
 }
-
 const NFT_CONTRACT = "0x49FDb7C8C9c19E4ac93331139B6C15b713f438B1";
 
 const ERC1155_ABI = [
